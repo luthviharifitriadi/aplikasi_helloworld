@@ -12,7 +12,19 @@ class MyApp extends StatelessWidget {
         appBar: AppBar(
           title: Text("Aplikasi Hello Word"),
         ),
-        body: Center(child: Text("Hallo Word")),
+        body: Center(
+            child: Container(
+                color: Colors.lightBlue,
+                width: 150,
+                height: 50,
+                child: Text(
+                  "Saya Sedang Meatih Kemampuan flutter Saya",
+                  style: TextStyle(
+                      color: Colors.white,
+                      fontStyle: FontStyle.italic,
+                      fontWeight: FontWeight.w700,
+                      fontSize: 20),
+                ))),
       ),
     );
   }
