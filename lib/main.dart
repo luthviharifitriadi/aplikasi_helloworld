@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
         appBar: AppBar(
           title: Text("Aplikasi Hello Word"),
         ),
-        body: Center(child: Text("Hello Word")),
+        body: Center(child: Text("Hallo Word")),
       ),
     );
   }
